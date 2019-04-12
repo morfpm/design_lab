@@ -1,0 +1,37 @@
+//hero
+.hero{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url('#{$path-img}hero-bg.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  color: $color-white;
+
+  &__logo{
+    display: inline-block;
+    padding-bottom: 90px;
+  }
+  &__title{
+    margin-bottom: 50px;
+  }
+  &__description{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    line-height: 29px;
+  }
+  &__scroll{
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    bottom: 2%;
+    width: 23px;
+    height: 37px;
+    background-image: url('#{$path-img}scroll.svg');
+    background-size: contain;
+
+  }
+}

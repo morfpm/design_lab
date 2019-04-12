@@ -1,0 +1,14 @@
+@import "mixins.scss";
+@import "variables.scss";
+
+// Common
+@import "common/general.scss";
+@import "common/typography.scss";
+
+//parts
+@import "parts/hero.scss";
+@import "parts/section__box";
+@import "parts/we_do";
+@import "parts/footer";
+@import "parts/contact_us";
+

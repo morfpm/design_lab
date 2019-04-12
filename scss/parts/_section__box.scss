@@ -1,0 +1,31 @@
+.section__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
+  &--services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('#{$path-img}services.jpg');
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    color: $color-white;
+  }
+
+  &--about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-base;
+    min-height: 60vh;
+  }
+}
+
+.section__body{
+  font-size: 16px;
+  line-height: 24px;
+}

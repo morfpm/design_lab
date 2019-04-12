@@ -1,0 +1,17 @@
+.section__we-do{
+  height: 1415px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color-base;
+}
+
+.we-do__list{
+  list-style: none;
+  text-align: center;
+}
+
+.we-do__item{
+  padding-top: 97px;
+}

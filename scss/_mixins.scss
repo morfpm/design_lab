@@ -1,0 +1,12 @@
+@mixin page-title($font-size) {
+  font-size: $font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.64px;
+}
+
+@mixin grid-border($br-color) {
+  border-bottom: 1px solid $br-color;
+  border-left: 1px solid $br-color;
+  border-right: 1px solid $br-color;
+}
