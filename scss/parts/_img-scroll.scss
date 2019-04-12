@@ -1,0 +1,33 @@
+.section__img-scroll{
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space:nowrap;
+  height: 485px;
+  width: 100vw;
+}
+
+.img-scroll--col{
+  display: flex;
+  flex-direction: column;
+}
+
+.img-scroll__item{
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin: 0 5px 5px 5px;
+  margin-bottom: 5px;
+  min-height: 237px;
+  min-width: 802px;
+}
+
+.img-scroll__note{
+  display:inline-block;
+  position:absolute;
+  bottom: 45px;
+  left: 50px;
+  text-transform: uppercase;
+  color: $color-white;
+}
+
